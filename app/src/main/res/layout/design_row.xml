@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/customcardview"
+    android:padding="10dp"
+    android:layout_marginTop="10dp">
+    <ImageView
+        android:id="@+id/image_recyclerview"
+        android:layout_width="140dp"
+        android:layout_height="133dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/name_recyclerview"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Decription"
+            android:id="@+id/desc_recyclerview"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:id="@+id/price_recyclerview"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+</LinearLayout>

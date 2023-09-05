@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFoodActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.FYPChatbotApp.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/my_orange"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foregroundGravity="center"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Edit Food"
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        ></TextView>
+
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_marginBottom="35dp">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="match_parent"
+                android:layout_height="229dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:hint="Dish Name"
+                android:id="@+id/dishedittext"
+                android:background="@drawable/customtextfield"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/customtextfield"
+                android:textAlignment="center"
+                android:hint="Dish description"
+                android:id="@+id/descedittext"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Price"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:background="@drawable/customtextfield"
+                android:layout_marginTop="10dp"
+                android:id="@+id/priceedittext"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:textSize="25dp"
+
+                android:background="@drawable/custombtn"
+                android:id="@+id/adddata"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</ScrollView>

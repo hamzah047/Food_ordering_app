@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "926221364057",
+    "firebase_url": "https://chatbot-for-restaurants-default-rtdb.firebaseio.com",
+    "project_id": "chatbot-for-restaurants",
+    "storage_bucket": "chatbot-for-restaurants.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926221364057:android:18872e3d308ff73539ba48",
+        "android_client_info": {
+          "package_name": "com.example.imagestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926221364057-0am1fh19lv4qpm81p1o9d9c3k7d8ujj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAnISoq7ElxdVNvRw6k7JlcvPBynNrRjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926221364057-0am1fh19lv4qpm81p1o9d9c3k7d8ujj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926221364057:android:63cd53cf9e57119239ba48",
+        "android_client_info": {
+          "package_name": "com.example.newchatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926221364057-d8p9na5tlonorhkccdd3fl7qj77jq1qj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newchatbot",
+            "certificate_hash": "48f586864b1d96b8b1b9feb2220ac22004df7581"
+          }
+        },
+        {
+          "client_id": "926221364057-0am1fh19lv4qpm81p1o9d9c3k7d8ujj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAnISoq7ElxdVNvRw6k7JlcvPBynNrRjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926221364057-0am1fh19lv4qpm81p1o9d9c3k7d8ujj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926221364057:android:e8787d5b450e09fd39ba48",
+        "android_client_info": {
+          "package_name": "com.example.uzair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926221364057-0am1fh19lv4qpm81p1o9d9c3k7d8ujj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAnISoq7ElxdVNvRw6k7JlcvPBynNrRjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926221364057-0am1fh19lv4qpm81p1o9d9c3k7d8ujj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926221364057:android:31799037f2261a8939ba48",
+        "android_client_info": {
+          "package_name": "com.example.uzairadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926221364057-0am1fh19lv4qpm81p1o9d9c3k7d8ujj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAnISoq7ElxdVNvRw6k7JlcvPBynNrRjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926221364057-0am1fh19lv4qpm81p1o9d9c3k7d8ujj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
